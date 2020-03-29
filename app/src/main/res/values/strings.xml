@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Klondike</string>
+    <string name="game_finished_dialog_title">You win!</string>
+    <string name="game_finished_dialog_message">Congratulations!</string>
+</resources>

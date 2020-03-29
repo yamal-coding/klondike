@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="@dimen/card_width"
+        android:layout_height="@dimen/card_height"
+        android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/card_front"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_front_background"
+            android:textAlignment="textStart"
+            android:padding="1dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:visibility="gone"
+            tools:text="7b"
+            tools:visibility="visible" />
+
+    <View
+            android:id="@+id/card_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_back_background"
+            android:textColor="#000000"
+            android:visibility="gone" />
+
+    <View
+            android:id="@+id/empty_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_front_background"
+            tools:visibility="gone" />
+
+</LinearLayout>
